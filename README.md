@@ -1,3 +1,5 @@
+# RUN ALL COMMANDS: sudo
+
 # Redis k8s operator deployment on Kind
 
 By default, this set of scripts will set up a fully functioning Redis [Active-Active database](https://redis.io/active-active/) distributed over 2 Redis clusters running on seperate vanilla/community k8s clusters deployed in [kind](https://kind.sigs.k8s.io/) (Kubernetes in Docker).
